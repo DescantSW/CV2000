@@ -1,0 +1,20 @@
+// @import 'normalize.css'
+// @import 'base/globals'
+// @import 'base/variables'
+// @import 'base/mixins'
+// @import 'modules/logo'
+// @import 'modules/header'
+// @import 'modules/svg'
+// @import 'modules/modal'
+
+
+$bg: aqua;
+
+h1 {
+    font-size: 6rem;
+    margin-left: 20%
+}
+
+body {
+    background: $bg;   
+}
