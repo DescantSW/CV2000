@@ -1,0 +1,26 @@
+.header {
+   grid-area: header;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   // background: rgba(122, 122, 102, 0.5);
+   background: rgba(245,245,198, 1.0);        // #f5f5c6;
+   border-bottom: 2px solid blue;
+   margin: 0;
+   z-index: 10;
+}
+    
+.nav {
+   margin-right: 4%;
+}
+    
+    .header ul li {
+       display: flex;
+       float: right;
+       font-size: 1.6rem;
+       padding: 10px 20px;
+       position: relative;    
+       top: -5px;
+    }
+    

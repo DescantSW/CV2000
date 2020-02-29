@@ -1,0 +1,41 @@
+.edu {
+    grid-area: edu;
+    background: rgba(245,245,198, 1.0);
+    padding: 3rem 10% 4rem 10%;
+    color: blue;
+
+    
+    h1 {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .wrapper {
+        display: flex;
+
+        h2 {
+            text-align: center;
+        }
+        
+        div {
+            flex: 1;
+        }
+
+        li {
+            padding: .3rem;
+        }
+    }
+
+    .music {
+        border-right: 2px solid blue;
+        margin-left: auto;
+    }
+
+    .tech {
+        margin-right: auto;
+        padding-left: 3rem;;
+    }
+
+
+
+}

@@ -1,0 +1,32 @@
+.logo {
+    height: 62px;
+    width: 10rem;
+    font-family: Pacifico; 
+    font-style: italic; 
+    padding-left: 4%;
+    text-shadow: none;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-35%);
+  }
+   
+ .header text {
+    fill: blue;
+}
+.first-letter {
+  font-size: 3rem;
+  transform: scaleY(1.2);
+  position: relative;
+  top: -5px;
+}
+
+.next-chars {
+  font-size: 1.7rem;
+  letter-spacing: 0.4rem;
+}
+
+.last-name {
+  font-size: 1.5rem;
+}

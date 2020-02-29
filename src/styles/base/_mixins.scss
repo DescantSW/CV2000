@@ -1,0 +1,12 @@
+@define-mixin atMedium {
+    @media (min-width: 800px) {
+        @mixin-content;
+    }
+}
+
+@media (min-width: 768px) {
+    text {
+        font-weight: 500;
+        text-shadow: -2px -2px 2px #fff, 1px 1px 1px #000;
+    }
+ }

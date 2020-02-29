@@ -1,0 +1,25 @@
+.footer {
+    grid-area: footer;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:(2, 1fr);
+    grid-template-areas: 
+        "left    middle   right"
+        "bottom  bottom   bottom";
+}
+.left {
+    grid-area: left;
+    background-color: green;
+}
+.middle {
+    grid-area: middle;
+    background-color: lightgreen;
+}
+.right {
+    grid-area: right;
+    background-color: lightseagreen;
+}
+.bottom {
+    background-color: lightblue;
+}
