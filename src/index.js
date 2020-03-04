@@ -34,6 +34,13 @@ modalClose.onclick = function () {
 	modal.classList.remove("modal--is-visible");
 }
 
+//testing //////////////////////////////////
+import { sendMail } from './scripts/modules/mail.js'
+const mailer = document.getElementById("mail")
+mailer.onclick = function() { 
+	sendMail()
+}
+/////////////////////////////////////////////////////
 kmhs.onclick = function() { injectHTML(KMHS) }
 dcs.onclick = function() { injectHTML(DCS) }
 pgu.onclick = function() { injectHTML(PGU) }
