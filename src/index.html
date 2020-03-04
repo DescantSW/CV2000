@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BobTaffet</title>
 </head>
 <body>
 <div class="container">
@@ -27,17 +27,17 @@
         </div>
     </div>
 
-    <div class="bio">
+    <section class="bio snap-to">
         <div>
             <img src="images/me.jpg" alt="Picture of Bob Taffet">
         </div>
         <h1>Bob Taffet</h1>
         <h3>Doublebassist, Composer, Conductor, Arranger, Software Developer and Teacher</h3>
-        <p>Bob began teaching himself to play the guitar at age 4.  He has not stopped learning and growing as a musician.  In addition to performing on the doublebass, he is also a conductor, an arranger and has composed music for film and TV.  At age 7 he achieved his novice Amateur Radio license and spent the next decade builing radios and audio equipment.  His interest in tech morphed into a passion for designing and developing software.  Bob is also an avid, life long sailor having raced dinghies up and down the Eastern seaboard, raced offshore yachts and has made several ocean voyages.</p>
-    </div>
+        <p>Bob began teaching himself to play the guitar at age 4.  He has not stopped learning and growing as a musician.  In addition to performing on the doublebass, he is also a conductor, an arranger and has composed music for film and TV.  At age 7 he achieved his novice Amateur Radio license and spent the next decade building radios and audio equipment.  His interest in tech morphed into a passion for designing and developing software.  Bob is also an avid, life long sailor having raced dinghies up and down the Eastern seaboard, raced offshore yachts and has made several ocean voyages.</p>
+    </section>
 
 
-    <div class="history">
+    <section class="history snap-to">
         <h1>Work History</h1>
                 <svg viewBox="0 0 1380 400">
             <defs>
@@ -185,10 +185,9 @@
                     >Eastern Music Festival</text>
             </svg>
         </svg>
+    </section>
 
-    </div>
-
-    <div class="edu">
+    <section class="edu snap-to">
         <h1>Education & Training</h1>
         <div class="wrapper">
             <div class="music">
@@ -228,9 +227,10 @@
                 <h2>Technology</h2>
                 <h3>Proficiencies:</h3>
                 <ul>
-                    <li>HTML CSS Javascript Node JQuery SQL PHP Sass Git Gulp Bash(CLI's) Express MongoDB</li>
+                    <li>HTML CSS Javascript Node JQuery SQL PHP Sass Git Gulp Webpack Express MongoDB</li>
                     <li>C/C++</li>
                     <li>Wordpress</li>
+                    <li>Visual Basic, VBA</li>
                     <li>Mainfrome JCL Cobol ADABAS/Natural</li>
                     <li>Assembler: 370 & x86</li>
                 </ul>
@@ -254,24 +254,36 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="footer">
-        <div class="left">
-            <h1>left footer</h1>
-    
+    <section class="footer snap-to">
+        <div class="languages">
+            <div>
+                <img src="images/FR.png" alt="French">
+                <h3>On parle français</h3>
+            </div>
+            <div>
+                <img src="images/ES.png" alt="Spanish">
+                <h3>Se habla español</h3>
+            </div>    
         </div>
-        <div class="middle">
-            <h1>>middle footer</h1>
-        </div>
-        <div class="right">
-            <h1>right footer</h1>
+        <div class="contact">
+            <h2>Contact Me</h2>
+            <div class="box">
+                <a href="#"><img src="images/mail.svg" alt="mail"></a>
+            </div>
         </div>
         <div class="bottom">
-            <h1>bottom footer</h1>
+            <h4>&copy; 2000 Bob Taffet</h4>
         </div>
-    </div>
+    </section>
 </div>
+
+<div id="modal" class="modal">
+    <div id="modal-content" class="modal__inner"></div>
+    <div id="modal-close" class="modal__close">X</div>
+</div>
+
 </body>
 </html>
 

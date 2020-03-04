@@ -1,25 +1,33 @@
 .footer {
     grid-area: footer;
     background-color: gray;
+    color: #f5f5c6;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows:(2, 1fr);
+    text-align: center;
+    padding-top: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:(1, 2fr);
     grid-template-areas: 
-        "left    middle   right"
-        "bottom  bottom   bottom";
+        "languages  contact"
+        "bottom     bottom";
 }
-.left {
-    grid-area: left;
-    background-color: green;
+.languages {
+    grid-area: languages;
+    margin: 0 15%;
+    display: flex;
+
+    div {
+        flex: 1;
+    }
 }
-.middle {
-    grid-area: middle;
-    background-color: lightgreen;
-}
-.right {
-    grid-area: right;
-    background-color: lightseagreen;
+
+.contact {
+    grid-area: contact;
+
+    img {
+        width: 5rem;
+    }
 }
 .bottom {
-    background-color: lightblue;
+    grid-area: bottom;
 }

@@ -1,0 +1,5 @@
+// import  { bro } from './bro';
+// import 'src/scripts/modal.js'
+import './styles/main.scss';
+
+// console.log(bro('\'sup'))

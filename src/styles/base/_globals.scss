@@ -4,9 +4,10 @@ html {
 }
 
 body {      
-    // background-color: #f5f5c6;
-    background: linear-gradient(90deg, rgba(245,245,198,0.3) 50%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 0), #ccc;
-    background-size:100px auto;
+    background: $mainYellow;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 2rem;
     box-sizing: border-box;
 }
 
@@ -21,8 +22,12 @@ img {
 
 .container {
     width: 100%;
-
     display: grid;
     grid-template-rows: repeat(4, auto);  
     grid-template-areas: "bio" "history" "edu" "footer";
+    scroll-snap-type: y mandatory; // proximity;
 }
+
+.snap-to {
+    scroll-snap-align: start;
+  }

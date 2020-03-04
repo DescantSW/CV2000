@@ -1,6 +1,5 @@
 .edu {
     grid-area: edu;
-    background: rgba(245,245,198, 1.0);
     padding: 3rem 10% 4rem 10%;
     color: blue;
 
@@ -22,6 +21,7 @@
         }
 
         li {
+            margin-right: 3rem;
             padding: .3rem;
         }
     }
